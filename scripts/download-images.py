@@ -26,6 +26,7 @@ IMAGES = {
 
     # --- inicio ---
     "benefits.jpg": "https://static.wixstatic.com/media/6ab1eb_b1ea194286db4d5b937fae99cc98bcb7f000.jpg",
+    "hero-poster.jpg": "https://static.wixstatic.com/media/6ab1eb_b1ea194286db4d5b937fae99cc98bcb7f000.jpg",
     "sector-industrial.jpg": "https://static.wixstatic.com/media/6ab1eb_f5d4146fad384432bed12614748d4a1a~mv2.jpeg",
     "sector-habitacional.jpg": "https://static.wixstatic.com/media/6ab1eb_d592d1f8c5c64fbaadce5b1ae84f42a2~mv2.jpeg",
     "sector-comercial.jpg": "https://static.wixstatic.com/media/6ab1eb_2f688ae33a0d4c6d92b8f1f235dff326~mv2.jpg",
@@ -34,6 +35,7 @@ IMAGES = {
     "construccion-residencial.jpg": "https://static.wixstatic.com/media/6ab1eb_da3a6880202247c8ada4953432d20eb9~mv2.jpg",
     "construccion-comercial.jpg": "https://static.wixstatic.com/media/6ab1eb_f92fab8e8c61407a8d2d76cd6ce9ed2d~mv2.jpg",
     "construccion-corporativa.jpg": "https://static.wixstatic.com/media/6ab1eb_8b0f4a1880b74b31b4c840b453ec4c47~mv2.jpg",
+    "contact-poster.jpg": "https://static.wixstatic.com/media/6ab1eb_8b0f4a1880b74b31b4c840b453ec4c47~mv2.jpg",
     "construccion-recreativa.jpg": "https://static.wixstatic.com/media/6ab1eb_d74a77c11507468ebf2d22ebba8bd4b8~mv2.jpg",
 
     # --- remodelacion ---
