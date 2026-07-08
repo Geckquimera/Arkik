@@ -32,19 +32,15 @@
 </header>
 <main>
 
-<section class="hero" id="inicio" style="background-image:url('images/benefits.jpg')">
+<section class="hero" id="inicio">
+  <video class="hero-video" data-bg autoplay muted loop playsinline poster="images/hero-poster.jpg">
+    <source src="videos/hero.mp4" type="video/mp4">
+  </video>
   <div class="hero-inner">
-    <p class="eyebrow">Arkik Desarrollos · Ciudad Juárez</p>
-    <h1>De la visión<br>a la <em>realidad</em>.</h1>
-    <p class="tagline">Construimos contigo</p>
+    <h1>De la visión a la realidad</h1>
+    <div class="tagline-pill">Construimos Contigo</div>
     <div>
-      <a class="btn-primary" href="https://api.whatsapp.com/send?phone=526561095490" target="_blank" rel="noopener">Pide tu presupuesto</a>
-      <a class="btn-outline" href="#contacto">Ver servicios</a>
-    </div>
-    <div class="hero-stats">
-      <div><div class="num">4+</div><div class="label">Años de trayectoria</div></div>
-      <div><div class="num">3</div><div class="label">Sectores atendidos</div></div>
-      <div><div class="num">100%</div><div class="label">Presupuestos desglosados</div></div>
+      <a class="btn-pill" href="https://api.whatsapp.com/send?phone=526561095490" target="_blank" rel="noopener">Pide tu presupuesto ›</a>
     </div>
   </div>
 </section>
@@ -146,11 +142,10 @@
   </div>
 </section>
 
-<section class="portfolio-cta reveal" id="remodelacion">
+<section class="portfolio-fan-wrap" id="remodelacion">
   <div class="wrap">
-    <p class="eyebrow" style="justify-content:center;color:var(--amber);">Remodelaciones</p>
-    <h2>Descarga nuestro portafolio completo</h2>
-    <a class="btn-primary" href="https://www.grupoarkik.com/_files/ugd/6ab1eb_3b5ccdfc936b4402ac11c60393402bea.pdf" target="_blank" rel="noopener">Ver portafolio (PDF)</a>
+    <div class="portfolio-fan" data-images='["images/construccion-residencial.jpg","images/remodelacion-cocinas.jpg","images/construccion-comercial.jpg","images/remodelacion-banos.jpg","images/3d-plaza-caporal.jpg","images/construccion-corporativa.jpg","images/remodelacion-fachadas.jpg","images/3d-casa-pao.jpg"]'></div>
+    <a class="fan-badge" href="https://www.grupoarkik.com/_files/ugd/6ab1eb_3b5ccdfc936b4402ac11c60393402bea.pdf" target="_blank" rel="noopener">Portafolio</a>
   </div>
 </section>
 
@@ -174,51 +169,40 @@
       </div>
       <div class="checkbox-row"><input type="checkbox" id="terms" required><label for="terms">Acepto los términos y condiciones</label></div>
       <button type="submit" class="submit-btn">Cotizar mi proyecto</button>
-      <p class="form-note" id="formNote">Gracias, un asesor te contactará en breve.</p>
+      <p class="form-note" id="formNote">Se abrió tu app de correo con los datos listos para enviar — solo confirma el envío ahí.</p>
     </form>
   </div>
 </section>
 
 </main>
-<footer>
+<section class="contact-video">
+  <video class="contact-video-el" data-bg autoplay muted loop playsinline poster="images/contact-poster.jpg">
+    <source src="videos/contacto.mp4" type="video/mp4">
+  </video>
   <div class="wrap">
-    <div class="footer-grid">
-      <div>
-        <div class="footer-logo"><img src="images/footer-logo.jpg" alt="Arkik Desarrollos"></div>
-        <p style="max-width:280px;">Construcción y remodelaciones en Ciudad Juárez. De la visión a la realidad.</p>
-        <div class="socials">
-          <a href="https://www.facebook.com/profile.php?id=61581260662167" target="_blank" rel="noopener" aria-label="Facebook"><img src="images/icon-facebook.png" alt=""></a>
-          <a href="https://www.instagram.com/arkik_3d_studio/" target="_blank" rel="noopener" aria-label="Instagram"><img src="images/icon-instagram.png" alt=""></a>
-          <a href="https://www.tiktok.com/@arkik_desarrollos" target="_blank" rel="noopener" aria-label="TikTok"><img src="images/icon-tiktok.png" alt=""></a>
-          <a href="https://api.whatsapp.com/send?phone=526561095490" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="images/icon-whatsapp.png" alt=""></a>
-        </div>
-      </div>
-      <div>
-        <h4>Contáctanos</h4>
-        <ul>
-          <li><a href="https://maps.app.goo.gl/6qmCh1wCLA6KnDSu8" target="_blank" rel="noopener">Parque Real #8124, Col. Los Parques, Ciudad Juárez, 32440</a></li>
-          <li><a href="mailto:arkik.desarrollos@gmail.com">grupo.arkik@gmail.com</a></li>
-          <li><a href="tel:+526561095490">+52 656 109 5490</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Legal</h4>
-        <ul>
-          <li><a href="legal.html">Legal</a></li>
-          <li><a href="garantias.html">Garantías</a></li>
-          <li><a href="politicas-privacidad.html">Políticas y privacidad</a></li>
-          <li><a href="terminos-condiciones.html">Términos y condiciones</a></li>
-        </ul>
-      </div>
+    <h2>Contáctanos</h2>
+    <ul class="c-list">
+      <li><span class="c-icon">📍</span><a href="https://maps.app.goo.gl/6qmCh1wCLA6KnDSu8" target="_blank" rel="noopener">Parque Real #8124, Col. Los Parques, Ciudad Juárez, 32440</a></li>
+      <li><span class="c-icon">✉</span><a href="mailto:arkik.desarrollos@gmail.com">grupo.arkik@gmail.com</a></li>
+      <li><span class="c-icon">☎</span><a href="tel:+526561095490">+52 656 109 5490</a></li>
+    </ul>
+    <div class="socials" style="margin-top:22px;">
+      <a href="https://www.facebook.com/profile.php?id=61581260662167" target="_blank" rel="noopener" aria-label="Facebook"><img src="images/icon-facebook.png" alt=""></a>
+      <a href="https://www.instagram.com/arkik_3d_studio/" target="_blank" rel="noopener" aria-label="Instagram"><img src="images/icon-instagram.png" alt=""></a>
+      <a href="https://www.tiktok.com/@arkik_desarrollos" target="_blank" rel="noopener" aria-label="TikTok"><img src="images/icon-tiktok.png" alt=""></a>
+      <a href="https://api.whatsapp.com/send?phone=526561095490" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="images/icon-whatsapp.png" alt=""></a>
     </div>
-    <div class="footer-bottom">
-      <span>© 2020–2026 Arkik Desarrollos. Todos los derechos reservados.</span>
-      <span>Ciudad Juárez, Chihuahua, México</span>
-    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-bottom">
+    <span>© 2020–2026 Creado por Grupo ARKIK</span>
+    <span><a href="legal.html">Legal</a> · <a href="garantias.html">Garantías</a> · <a href="politicas-privacidad.html">Políticas y privacidad</a> · <a href="terminos-condiciones.html">Términos y condiciones</a></span>
   </div>
 </footer>
 
-<a class="wa-float" href="https://api.whatsapp.com/send?phone=526561095490" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">☎</a>
+<a class="wa-float" href="https://api.whatsapp.com/send?phone=526561095490" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><img src="images/icon-whatsapp.png" alt="WhatsApp"></a>
 
 <script src="js/main.js"></script>
 </body>

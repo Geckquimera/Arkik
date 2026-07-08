@@ -18,6 +18,7 @@ terminos-condiciones.html     → Términos y condiciones
 css/style.css                 → todos los estilos
 js/main.js                    → animaciones (scroll-reveal, carrusel) y menú móvil
 images/                       → todas las imágenes (por ahora son PLACEHOLDERS, ver paso 1)
+videos/                       → videos de fondo (por ahora son PLACEHOLDERS, ver sección Modernización)
 scripts/download-images.py    → descarga las imágenes REALES desde Wix a /images
 ```
 
@@ -46,17 +47,17 @@ Después de este paso, el sitio ya no hace **ninguna** llamada a wixstatic.com n
 
 ## Modernización (nuevo)
 
-Se agregaron 3 efectos que pediste probar (los mismos que viste en el ejemplo de RAIZ), adaptados a los colores de Arkik:
+Se rediseñó el sitio para que sea más minimalista, tomando como referencia el estilo de tu sitio actual en Wix:
 
-1. **Fondo fijo tipo parallax**: "Inicio" y todas las páginas interiores tienen ahora una foto real de fondo detrás del título, que se queda fija mientras el contenido se desliza encima. En iPhone/Safari este efecto puede no verse igual de fluido por una limitación conocida de ese navegador; en Chrome (Android y escritorio) se ve completo. Si el usuario tiene activada la preferencia "reducir movimiento" del sistema, el sitio lo respeta y desactiva el efecto automáticamente.
-2. **Aparición con scroll**: los bloques de texto, tarjetas y secciones aparecen con un fundido y un pequeño desplazamiento hacia arriba conforme entran en pantalla.
-3. **Carrusel de imágenes por tarjeta**: la sección "Sectores" en Inicio ahora tiene 2 fotos por tarjeta que rotan automáticamente, con flechas y puntos indicadores, en vez de una sola imagen estática.
+1. **Video de fondo en el encabezado**: "Inicio" ahora tiene un `<video>` de fondo (en loop, sin sonido) en vez de una imagen fija, con el texto "De la visión a la realidad / Construimos Contigo" simplificado a un solo botón — igual que tu sitio original.
+2. **Video de fondo en "Contáctanos"**: esta sección (que ahora aparece en las 9 páginas, justo arriba del pie de página) también tiene video de fondo, con ubicación, correo y teléfono superpuestos.
+3. **Portafolio en abanico**: la sección "Remodelaciones" del Inicio ahora es un collage de fotos que rota sola cada pocos segundos (una grande al centro, más pequeñas a los lados), con el botón punteado "Portafolio" debajo.
 
-Todo esto vive en dos archivos nuevos: `css/style.css` (estilos) y `js/main.js` (comportamiento), sin ninguna librería externa — es JavaScript puro, así que no afecta la velocidad de carga.
+**Importante — sobre los videos**: no pude sacar automáticamente los videos reales de tu sitio en Wix (se cargan con JavaScript, distinto a las imágenes). Por eso `/videos` trae 2 videos de relleno (efecto de zoom lento sobre una foto) para que nada se vea roto mientras tanto. Lee `videos/COMO-CONSEGUIR-LOS-VIDEOS.md` — ahí te explico paso a paso cómo bajar los videos reales de tu sitio actual en unos 5 minutos.
 
 ## Notas
 
-- **Formulario de cotización**: por ahora no envía datos (GitHub Pages es solo archivos estáticos). Conéctalo gratis con [Formspree](https://formspree.io) o [Web3Forms](https://web3forms.com) cambiando el `action` del `<form>` en `index.html`.
+- **Formulario de cotización**: ahora, al enviarlo, abre la app de correo del visitante (Gmail, Outlook, Mail...) con un mensaje ya redactado y dirigido a `arkik.desarrollos@gmail.com` — el visitante solo tiene que confirmar el envío. Es la opción sin costo y sin backend; su única limitación es que depende de que el visitante tenga una app de correo configurada en su dispositivo (en celular casi siempre la tiene). Si más adelante quieres un formulario "de verdad" que envíe directo sin abrir el correo, se puede conectar gratis con [Formspree](https://formspree.io) o [Web3Forms](https://web3forms.com) — avísame y te lo dejo listo.
 - **Páginas "servicios", "garantías", "construcción", etc. en el sitio original**: algunas tenían texto de plantilla sin terminar en Wix (p. ej. la sección "Nombre del servicio" en Garantías); aquí las dejé con el contenido real que sí estaba publicado.
 - El correo de contacto que aparece en pantalla es `grupo.arkik@gmail.com`, pero el enlace real en el sitio original apunta a `arkik.desarrollos@gmail.com`; usé este último como destino real del enlace — avísame si prefieres que use el otro.
 - El botón de WhatsApp flotante y el CTA del menú están conectados a tu número: `+52 656 109 5490`.
